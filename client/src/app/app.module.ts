@@ -11,20 +11,22 @@ import { NavComponent } from './nav/nav.component';
 import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 import { HomeComponent } from './home/home.component';
 import { RegisterComponent } from './register/register.component';
+import { MemberDetailComponent } from './members/member-detail/member-detail.component';
+
 
 @NgModule({
   declarations: [
-    
     AppComponent,
     NavComponent,
     HomeComponent,
-    RegisterComponent
+    RegisterComponent,
+    MemberDetailComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-   
+  
     BrowserAnimationsModule,
     FormsModule,
     BsDropdownModule.forRoot()
